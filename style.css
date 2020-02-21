@@ -39,7 +39,7 @@ html, body {
 
     width: 155px;
     margin: 0 10px 10px 0;
-    padding: 120px 23.385px 15px 15px;
+    padding: 120px 15px 15px 15px;
     box-sizing: border-box;
 
     background-color: #E8EBED;
@@ -67,7 +67,7 @@ html, body {
 .conformism {
     display: flex;
     align-items: flex-end;
-    flex-grow: 2;
+    flex-grow: 1;
 
     width: 100%;
     margin: 0 0 10px;
@@ -101,10 +101,18 @@ html, body {
     background-color: #FEBF26;
 }
 .modernization {
-    display: none;
+    display: none;   
+}
+.modernization__text {
+    margin: 0;
+    padding: 0;
 }
 .staff--changed {
     display: none;
+}
+.staff--changed__text {
+    margin: 0;
+    padding: 0;
 }
 .contact-information {
     display: none;
@@ -173,7 +181,7 @@ html, body {
 .however {
     display: flex;
     align-items: flex-end;
-    flex-grow: 2;
+    flex-grow: 1;
 
     width: 100%;
     margin: 0 0 10px;
@@ -259,4 +267,166 @@ html, body {
     padding: 0;
 
     font-size: 24px;
+}
+@media (min-width: 481px) {
+    .page-main {
+        padding: 0 12px 0 13px;
+    }
+    .jainism {
+        max-width: 492px;
+        max-height: 492px;
+        margin: 0 10px 10px 0;
+        padding: 30px 46px 0 25px;
+        overflow-y: auto;
+    }
+    
+    .feel { 
+        margin: 0 0 10px;
+        padding: 15px 15px 15px;
+    }
+    .moreno {
+        margin: 0 0 10px;
+        padding: 15px 15px 15px;
+    }
+    .staff {
+        flex-grow: 1;
+        order: 3;
+
+        width: 145.33px;
+    }
+    .enlightenment {
+        flex-grow: 1;
+        order: 4;
+        
+        width: 145.33px;
+        margin: 0 10px 10px 0;
+        padding: 100px 15px 15px;
+    }
+    .introjection {
+        flex-grow: 1;
+        order: 5;
+        
+        width: 145.33px;
+        min-width: auto;
+        margin: 0 0 10px 0;
+    }
+    .conformism {
+        flex-grow: 2;
+        order: 6;
+
+        width: 300.66px;
+        min-width: 62.6%;
+        margin: 0 10px 10px 0;
+    }
+    .staff--orange {
+        order: 7;
+
+        min-width: 30.27%;
+    }
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+        flex-grow: 2;
+        order: 8;
+        
+        width: 102.25px; 
+        margin: 0 10px 10px 0;    
+    }
+    .modernization {
+        display: flex;
+        align-items: flex-end;
+        flex-grow: 2;
+
+        margin: 0 0 10px;
+        padding: 15px 15px 15px;
+
+        background-color: #E3EBD3;
+    }
+    .staff--changed {
+        display: flex;
+        align-items: flex-end;
+        flex-grow: 2;
+        
+        width: auto;
+        margin: 0;
+        padding: 15px 15px 15px;
+
+        color: #ffffff;
+        background-image: url("img/image.jpg");
+    }
+    .staff--changed:hover {
+        filter: blur(5px);
+        cursor: pointer;
+    }
+    .contact-information {
+        display: block;
+        order: 9;
+
+        width: 65.98vw;
+        height: 65.98vw;
+        max-width: 492px;
+        max-height: 492px;
+        margin: 0 0 10px;
+        padding: 15px 15px 0;
+        box-sizing: border-box;
+
+        background-color: #E3EBD3;
+    }
+    .contact-information__table {
+        border-collapse: solid;
+    }
+    .contact-information__data {
+        border-bottom: 1px dashed black;
+        vertical-align: bottom;
+    }
+    .contact-information__data--2 {
+        text-align: end;
+    }
+    .lead {
+        flex-grow: 1;
+        order: 10;
+
+        width: 145.33px; 
+        min-width: 30.27%;      
+    }
+    .however {
+        flex-grow: 2;
+        order: 11;
+
+        width: 300.66px;
+        min-width: 62.6%;
+        margin: 0 0 10px;
+    }
+    .genius {
+        flex-grow: 1;
+        order: 12;
+
+        width: 145.33px;
+        margin: 0 10px 10px 0;
+    }
+    .point {
+        flex-grow: 1;
+        order: 13;
+
+        width: 145.33px;
+        min-width: auto;
+        margin: 0 10px 10px 0;
+    }
+    .length {
+        flex-grow: 1;
+        order: 14;
+
+        width: 145.33px;
+        min-width: auto;
+        margin: 0 0 10px;
+    }
+    
+}
+@media (min-width: 768px) {
+    .main-container {
+        width: 768px;
+        margin: 0 auto;
+    }
 }
