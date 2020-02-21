@@ -31,7 +31,8 @@ body {
 .chat__photo {
     margin-right: 18px;
     padding: 0;
-    clip-path: polygon(50% 0, 48px 16px, 37.5px 42.5px, 9.5px 42.5px, 1px 16px);
+    -webkit-clip-path: polygon(50% 0, 48px 16px, 37.5px 42.5px, 9.5px 42.5px, 1px 16px);
+            clip-path: polygon(50% 0, 48px 16px, 37.5px 42.5px, 9.5px 42.5px, 1px 16px);
 }
 .chat__message {
     padding: 15px;
