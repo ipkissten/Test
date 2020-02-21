@@ -35,10 +35,24 @@ body {
             clip-path: polygon(50% 0, 48px 16px, 37.5px 42.5px, 9.5px 42.5px, 1px 16px);
 }
 .chat__message {
+    position: relative;
     padding: 15px;
     border-radius: 5px;
 
     background-color: #F1F3F5;
+}
+.chat__message::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    display: block;
+
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #F1F3F5;
+    transform: rotate(45deg);
 }
 .chat__text {
     margin: 0;
@@ -56,6 +70,11 @@ body {
 }
 .chat__message--second {
     padding: 15px 22px 15px 10px;
+}
+.chat__message--second::before {
+    left: 117px;
+
+    transform: rotate(-45deg);
 }
 .chat__date {
     position: relative;
@@ -83,6 +102,7 @@ body {
 .chat__textarea {
     width: 568px;
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #DBDBDB;
     border-radius: 4px;
 
@@ -90,6 +110,7 @@ body {
     color: #696969;
 }
 .chat__button {
+    margin: 0;
     padding: 9px 32.35px;
     border: 0;
     border-radius: 21px;
