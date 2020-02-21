@@ -1,0 +1,262 @@
+html, body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', Arial, sans-serif;;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+    background-color: #E5E5E5;
+}
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: #ffffff;
+}
+.page-header {
+    margin: 0 0 10px;
+    padding: 30px 0 40px;
+
+    text-align: center;
+
+    background-color: #C4C4C4;
+}
+.page-header__text {
+    margin: 0;
+    padding: 0;
+
+    font-size: 24px;
+}
+.page-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.staff {
+    flex-grow: 2;
+
+    width: 155px;
+    margin: 0 10px 10px 0;
+    padding: 120px 23.385px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #E8EBED;
+}
+.staff__text {
+    margin: 0;
+    padding: 0;
+}
+.enlightenment {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+    
+    width: 155px;
+    margin: 0 0 10px;
+    padding: 100px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #E8EBED;
+}
+.enlightenment__text {
+    margin: 0;
+    padding: 0;
+}
+.conformism {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #E8EBED;
+}
+.conformism__text {
+    margin: 0;
+    padding: 0;
+}
+.introjection {
+    flex-grow: 2;
+
+    width: 155px;
+    min-width: 40%;
+    margin: 0 10px 10px 0;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #90BCE8;
+}
+.introjection__text {
+    margin: 0;
+    padding: 0;
+}
+.staff--orange {
+    min-width: 40%;
+    margin: 0 0 10px;
+    background-color: #FEBF26;
+}
+.modernization {
+    display: none;
+}
+.staff--changed {
+    display: none;
+}
+.contact-information {
+    display: none;
+}
+.jainism {
+    width: 65.98vw;
+    height: 65.98vw;
+    margin: 0 6.6px 10px 0;
+    padding: 19.78px 10px 2px 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+    background-color: #A2A9B7;
+}
+.jainism__text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-grow: 2;
+
+    width: 102.25px;
+}
+.feel {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+
+    margin: 0 0 6.57px;
+    padding: 52px 10px 10px;
+    box-sizing: border-box;
+
+    background-color: #A2A9B7;
+}
+.feel__text {
+    margin: 0;
+    padding: 0;
+
+    color: #ffffff;
+}
+.moreno {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+
+    margin: 0 0 10px;
+    padding: 72.25px 10px 10px;
+    box-sizing: border-box;
+
+    background-color: #A2A9B7;
+}
+.moreno__text {
+    margin: 0;
+    padding: 0;
+
+    color: #ffffff;
+}
+.however {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #FFAA87;
+}
+.however__text {
+    margin: 0;
+    padding: 0;
+}
+.point {
+    flex-grow: 2;
+
+    width: 155px;
+    min-width: 45%;
+    margin: 0 10px 10px 0;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #FFAA87;
+}
+.point__text {
+    margin: 0;
+    padding: 0;
+}
+.length {
+    flex-grow: 2;
+
+    width: 155px;
+    min-width: 45%;
+    margin: 0 0 10px;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #C7ABD4;
+}
+.length__text {
+    margin: 0;
+    padding: 0;
+}
+.lead {
+    flex-grow: 2;
+
+    width: 155px;
+    margin: 0 10px 10px 0;
+    padding: 120px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #FFAA87;
+}
+.lead__text {
+    margin: 0;
+    padding: 0;
+}
+.genius {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+
+    width: 155px;
+    margin: 0 0 10px;
+    padding: 100px 15px 15px;
+    box-sizing: border-box;
+
+    background-color: #F55E62;
+}
+.genius__text {
+    margin: 0;
+    padding: 0;
+}
+.page-footer {
+    margin: 0;
+    padding: 35px 0;
+
+    text-align: center;
+
+    background-color: #C4C4C4;
+}
+.page-footer__text {
+    margin: 0;
+    padding: 0;
+
+    font-size: 24px;
+}
